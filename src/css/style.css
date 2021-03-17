@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--main-font-stack);
+  color: var(--primary-font-color);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
