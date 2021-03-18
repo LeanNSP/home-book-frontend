@@ -1,0 +1,14 @@
+:root {
+  --main-font-stack: "Poppins", "Arial", sans-serif;
+
+  --primary-font-color: #3f3f3f;
+  --secondary-font-color: #ffb273;
+  --name-font-color: #a64b00;
+  --placholder-font-color: #c7c7c7;
+
+  --primary-background-color: #5ccccc;
+  --secondary-background-color: #006363;
+  --list-background-color: #bbffff;
+  --btn-color: #ffb273;
+  --btn-hover-bg-color: #a64b00;
+}
