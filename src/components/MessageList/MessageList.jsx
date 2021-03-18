@@ -4,16 +4,11 @@ import MessageListItem from "./MessageListItem";
 
 import style from "./MessageList.module.css";
 
-const MessageList = () => {
-  const messages = [
-    { id: 1, name: "Emma", message: "Hello, my name's Emma" },
-    { id: 2, name: "Bob", message: "Hi, I'm Bob" },
-    { id: 3, name: "Jack", message: "Hello! How are you?" },
-  ];
+const MessageList = ({ messages }) => {
   return (
     <ul className={style.list}>
       {messages.map((message) => (
-        <MessageListItem key={message.id} {...message} />
+        <MessageListItem key={message._id} {...message} />
       ))}
     </ul>
   );

@@ -4,10 +4,10 @@ import MessageList from "../MessageList/MessageList";
 
 import style from "./Main.module.css";
 
-const Main = () => {
+const Main = ({ messages }) => {
   return (
     <main className={style.main}>
-      <MessageList />
+      <MessageList messages={messages} />
     </main>
   );
 };
