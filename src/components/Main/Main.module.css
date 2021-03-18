@@ -1,0 +1,6 @@
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-background-color);
+  width: 100%;
+}
