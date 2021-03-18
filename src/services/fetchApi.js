@@ -1,6 +1,7 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:3300";
+// axios.defaults.baseURL = "http://localhost:3300";
+axios.defaults.baseURL = "https://pacific-sands-67465.herokuapp.com";
 axios.defaults.headers.get["Accept"] = "application/json";
 
 const fetchApi = {
