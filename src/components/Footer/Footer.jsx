@@ -4,10 +4,10 @@ import MessageForm from "../MessageForm/MessageForm";
 
 import style from "./Footer.module.css";
 
-const Footer = () => {
+const Footer = ({ onAddMessage }) => {
   return (
     <footer className={style.footer}>
-      <MessageForm />
+      <MessageForm onAddMessage={onAddMessage} />
     </footer>
   );
 };

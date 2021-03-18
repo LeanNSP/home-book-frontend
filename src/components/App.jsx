@@ -12,10 +12,32 @@ class App extends Component {
   };
 
   async componentDidMount() {
-    const messages = await fetchApi.get("/message");
+    let messages;
+
+    try {
+      messages = await fetchApi.get("/message");
+    } catch (error) {
+      alert(error);
+    }
 
     this.setState({ messages });
   }
+
+  addMessage = async (newMessage) => {
+    let message;
+
+    try {
+      message = await fetchApi.post("/message", newMessage);
+    } catch (error) {
+      alert(error);
+    }
+
+    this.setState(({ messages }) => {
+      return {
+        messages: [...messages, message],
+      };
+    });
+  };
 
   render() {
     return (
