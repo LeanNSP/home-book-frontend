@@ -4,11 +4,11 @@
   --primary-font-color: #3f3f3f;
   --secondary-font-color: #ffb273;
   --name-font-color: #a64b00;
-  --white-font: #ffffff;
+  --placholder-font-color: #c7c7c7;
 
   --primary-background-color: #5ccccc;
   --secondary-background-color: #006363;
   --list-background-color: #90ffff;
-  --primary-content-color: #889dea;
-  --border-color: #c7c7c7;
+  --btn-color: #ffb273;
+  --btn-hover-bg-color: #a64b00;
 }

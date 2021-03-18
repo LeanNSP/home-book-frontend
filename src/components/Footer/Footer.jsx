@@ -1,19 +1,13 @@
 import React from "react";
 
+import MessageForm from "../MessageForm/MessageForm";
+
+import style from "./Footer.module.css";
+
 const Footer = () => {
   return (
-    <footer>
-      <form>
-        <label>
-          Name*
-          <input placeholder="Enter a name from 2 to 20 characters" />
-        </label>
-        <label>
-          Message*
-          <input placeholder="Enter a message from 3 to 450 characters" />
-        </label>
-        <button>Add message</button>
-      </form>
+    <footer className={style.footer}>
+      <MessageForm />
     </footer>
   );
 };
