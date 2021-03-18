@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/home-book-frontend/static/css/main.eceabe8d.chunk.css",
+    "main.js": "/home-book-frontend/static/js/main.280855bd.chunk.js",
+    "main.js.map": "/home-book-frontend/static/js/main.280855bd.chunk.js.map",
+    "runtime-main.js": "/home-book-frontend/static/js/runtime-main.6d660980.js",
+    "runtime-main.js.map": "/home-book-frontend/static/js/runtime-main.6d660980.js.map",
+    "static/js/2.9a7b654c.chunk.js": "/home-book-frontend/static/js/2.9a7b654c.chunk.js",
+    "static/js/2.9a7b654c.chunk.js.map": "/home-book-frontend/static/js/2.9a7b654c.chunk.js.map",
+    "index.html": "/home-book-frontend/index.html",
+    "static/css/main.eceabe8d.chunk.css.map": "/home-book-frontend/static/css/main.eceabe8d.chunk.css.map",
+    "static/js/2.9a7b654c.chunk.js.LICENSE.txt": "/home-book-frontend/static/js/2.9a7b654c.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/home-book-frontend/static/media/poppins-v15-latin-regular.c14093ce.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d660980.js",
+    "static/js/2.9a7b654c.chunk.js",
+    "static/css/main.eceabe8d.chunk.css",
+    "static/js/main.280855bd.chunk.js"
+  ]
+}
