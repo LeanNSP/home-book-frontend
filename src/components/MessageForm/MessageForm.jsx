@@ -27,11 +27,11 @@ class MessageForm extends Component {
   isValid = ({ name, message }) => {
     const { MIN_NAME, MAX_NAME, MIN_MESSAGE, MAX_MESSAGE } = config;
 
-    if (name < MIN_NAME || name > MAX_NAME) {
+    if (name.length < MIN_NAME || name.length > MAX_NAME) {
       alert("Enter a name from 2 to 20 characters");
       return false;
     }
-    if (message < MIN_MESSAGE || message > MAX_MESSAGE) {
+    if (message.length < MIN_MESSAGE || message.length > MAX_MESSAGE) {
       alert("Enter a message from 3 to 450 characters");
       return false;
     }
